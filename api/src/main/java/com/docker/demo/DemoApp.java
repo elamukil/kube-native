@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Import;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import com.docker.demo.configuration.JpaConfiguration;
-
+//testing
 
 @Import(JpaConfiguration.class)
 @SpringBootApplication(scanBasePackages={"com.docker.demo"})
